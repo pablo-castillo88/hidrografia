@@ -1,0 +1,83 @@
+/* fondo de body*/
+.fondo{
+  background-image: linear-gradient(to top, #e9e913, #eee01b, #f2d823, #f4cf2b, #f6c732, #f7ba27, #f8ad1d, #f99f15, #fb8700, #fd6c00, #ff4a00, #ff0000);}
+
+.fondo2{
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #020202, #080809, #0e0e10, #131315, #161719, #191b1d, #1c1f21, #1f2324, #242828, #2a2c2c, #2f3130, #353635);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  /*termina fondo de body*/
+
+/*pagina principal*/
+.titulo{
+    color: #4d9209;
+    font-family: 'Bangers', cursive;
+    font-size: 5em;
+}
+
+.fuente{
+  font-size: 1.2em;
+  font-family: 'Cinzel', serif;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  }
+.marketing h2 {
+  font-weight: 400;
+  }
+ /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+
+.fuenteLogo{
+  color: white;
+  font-family: 'Bangers', cursive;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  padding-top: 5px;
+  }
+
+.termo{
+  border-radius: 10px;
+  }
+  /* fin de pagina principal*/
+
+/* main sosotros*/
+
+.nosotros{
+  min-height: 98vh;
+  }
+
+.empresa{
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  font-family: 'Bangers', cursive;
+  text-decoration: underline;
+  color: #00ff2a;
+  margin-top: 5%;
+   }
+
+
+
+
+
+   @media( max-width: 500px){
+    .titulo{
+        font-size: 2em;
+    }
+    .empresa{
+      padding-top: 15%;
+      font-size: 2em;
+
+    }
+  }
